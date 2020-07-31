@@ -17,7 +17,7 @@ class EchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("files",equalTo("some data"))
+                .body("data",equalTo("some data"))
         ;
     }
 }
